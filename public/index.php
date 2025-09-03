@@ -10,6 +10,9 @@ $Book = BookModel->All();
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST'&& isset($_POST['_method ']) && $_POST['_method'] === 'DELETE') {
     if (isset($_POST['id'])) {
+
+
+        
         $id = (int)$_POST['id'];
         if ($bookModel->delete($id)) {
             $_SESSION['flash_message'] = 'Livre supprimé avec succés!';
