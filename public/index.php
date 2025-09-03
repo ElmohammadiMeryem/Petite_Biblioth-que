@@ -42,7 +42,7 @@ if (isset($_SESSION['flash_message'])){
         <title>Petite Bibliothèque - Liste des livres</title>
         <link rel="stylesheet" href="assets/css/style.css">
     </head>
-<body>
+    <body>
     <div class="container">
         <header>
             <h1>

@@ -14,7 +14,7 @@ class BookModel {
     return $stmt->fetch();
   }
 
-  public function create($data){
+    public function create($data){
     $stmt = $this->pdo->prepare("INSERT INTO books (title, author, year, isbn, description) VALUES (?, ?, ?, ?, ?)");
     return $stmt->execute([$data['title'],$data['author'],$data['year'],$data['isbn'],$data['description']]);
   }
