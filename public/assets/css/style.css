@@ -1,0 +1,62 @@
+        /*Style global */
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f9f9f9;
+            color: #333;
+        }
+        /*En-tete */
+        
+        header {
+            background: #4a904a;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        
+        h1 {
+            margin: 0;
+        }
+        
+        nav {
+            margin-top: 10px;
+        }
+        
+        a.btn,
+        .btn-edit,
+        .btn-delete,
+        button {
+            background: #4a90e2;
+            color: white;
+            padding: 6px 12px;
+            text-decoration: none;
+            border-radius: 4px;
+            border: none;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        
+        .btn-edit {
+            background: #f39c12;
+        }
+        
+        .btn-delete {
+            background: #e74c3c;
+        }
+        
+        a.btn:hover,
+        .btn-edit:hover,
+        .btn-delete:hover,
+        button:hover {
+            opacity: 0.85;
+        }
+        /*Table*/
+        
+        table {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background: white;
+        }
